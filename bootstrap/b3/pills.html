@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pills</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a href="#h1">Home</a></li>
+			<li><a href="#h2">About</a></li>
+			<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown"href="#h3">Course<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Java</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">.NET</a></li>
+				<li><a href="#">PYTHON</a></li>
+				<li><a href="#">RUBY</a></li>
+			</ul>	
+			</li>
+			
+			<li><a href="#h4">Contact</a></li>
+			<li><a href="#h5">Downloads</a></li>
+		</ul>
+		<div id="h1" class="pill-pane fade in active">
+			<h2>Home</h2>
+			<p>This is my home page</p>
+		</div>		
+		<div id="h2" class="pill-pane fade">
+			<h2>About</h2>
+			<p>This is my about page</p>
+		</div>
+		<div id="h3" class="pill-pane fade">
+			<h2>Course</h2>
+			<p>This is my Course page</p>
+		</div>
+		<div id="h4" class="pill-pane fade">
+			<h2>Contact</h2>
+			<p>This is my contact page</p>
+		</div>
+		<div id="h5" class="pill-pane fade">
+			<h2>Downloads</h2>
+			<p>This is my downloads page</p>
+		</div>	
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>

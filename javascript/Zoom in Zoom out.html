@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>zoom</title>
+	<script type="text/javascript">
+		function ZoomIn()
+		{
+			p=document.getElementById("x")
+			currW=p.clientwidth
+			currH=p.clientheight
+			p.style.width=(currW+50)+"px"
+			p.style.height=(currH+50)+"px"
+		}
+		function ZoomOut()
+		{
+			p=document.getElementById("x")
+			currW=p.clientwidth
+			currH=p.clientheight
+			p.style.width=(currW-50)+"px"
+			p.style.height=(currH-50)+"px"
+		}
+	</script>
+</head>
+<body>
+<center>
+	<input type="button" value="ZoomIn" onclick="ZoomIn()">
+	<input type="button" value="ZoomOut" onclick="ZoomOut()"><hr>
+	<img src="3.jpg" height="200" width="200" id="x">
+</center>
+</body>
+</html>

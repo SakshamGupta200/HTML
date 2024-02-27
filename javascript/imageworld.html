@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Image World</title>
+        <script type="text/javascript">
+        function show(path) 
+        {
+            document.getElementById("img").src=path;   
+        }
+        </script>
+        <style type="text/cass">
+        img
+        {
+            height: 200px;
+            width: 500px;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <br><br>
+            <img src=" " id="img" height="60" width="60">
+            <br>
+            <hr>
+            <a href="#" onclick="show('1.jpg')"><img src="1.jpg"></a>
+            <a href="#" onclick="show('2.jpg')"><img src="2.jpg"></a>
+            <a href="#" onclick="show('3.jpg')"><img src="3.jpg"></a>
+        </center>
+    </body>
+</html>

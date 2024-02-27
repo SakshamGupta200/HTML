@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Jquery UI</title>
+	<script src="jquery.min.js"></script>
+	<script src="jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+	<script type="text/javascript">
+		$(function()
+			{
+				var str=[
+				"Apple","Agra","Amit","Bombay"
+				];
+				$("#tags").autocomplete({
+					source:str
+				});
+			});
+	</script>
+</head>
+<body>
+	<label for="tags">Tags:</label>
+	<input id="tags">
+</body>
+</html>

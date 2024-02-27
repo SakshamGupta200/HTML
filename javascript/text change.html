@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text change</title>
+	<script type="text/javascript">
+		n=0
+		function print()
+		{
+			x=document.getElementById("pic")
+			n++
+			if (n==1) 
+			{
+				document.getElementById("pic").innerHTML="Australia"
+			}
+			else if (n==2)
+			{
+				document.getElementById("pic").innerHTML="Sri Lanka"
+			}
+			else if (n==3)
+			{
+				document.getElementById("pic").innerHTML="New Zeland"
+			}
+			else if (n==4)
+			{
+				document.getElementById("pic").innerHTML="Canada"
+			}
+			else
+			{
+				document.getElementById("pic").innerHTML="India"
+				n=0
+			}
+			var t=setTimeout("print()",1000)
+		}
+	</script>
+</head>
+<body>
+	
+<span id="pic" style="font-size: 100pt; color: red">India</span>
+<input type="button" value="print data" onclick="print()">
+
+</body>
+</html>

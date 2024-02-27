@@ -1,0 +1,76 @@
+.login
+{
+	margin:100px;
+	height:500px;
+	width:500px;
+opacity:0.7;
+	color:black;
+	font-size:large;
+	font-weight: bold;
+	background:url('jjj.jfif');
+}
+body
+{
+	background:url('ll.jfif');
+}
+.outer
+{
+	height:800px;
+	width:900px;
+	background-color:azure;
+}
+.banner
+{
+height: 200px;
+width: 900px;
+background-color:cyan;
+}
+.work
+{
+	height:600px;
+	width:900px;
+	background-color:transparent;
+	float:left;
+}
+.menu
+{
+	height:600px;
+	width:250px;
+	background-color:transparent;
+	float:left;
+}
+
+.part
+{
+	height:600px;
+	width:650px;
+	background-color:yellow;
+	float:right;
+
+}
+.header
+{
+	height:50px;
+	width:650px;
+	background-color:#2f4f4f;
+	padding: 10px;
+	font-size:x-large;
+	font-weight: bold;
+	color:azure;
+
+}
+.kk
+{
+	height:550px;
+	width:650px;
+}
+.pp
+{
+	height:51px;
+	width:240px;
+	background-color:transparent;
+	box-shadow: 2px 2px 2px #111;
+	margin-top:3px;
+	padding:5px;
+	font-size:large;
+}

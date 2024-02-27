@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>interval</title>
+	<script type="text/javascript">
+		num=0
+		function print()
+		{
+			num++
+			document.getElementById("n").innerHTML=num
+			var t = setTimeout("print()",1000)
+		}
+		
+	</script>
+</head>
+<body>
+<span id="n" style="font-size: xx-large; color: red"></span>
+<br>
+<input type="button" value="print data" onclick="print()">
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text change</title>
+	<script type="text/javascript">
+		n=0
+		function print()
+		{
+			x=document.getElementById("pic")
+			n++
+			if (n==1) 
+			{
+				x.src="2.jpg"
+			}
+			else if (n==2)
+			{
+				x.src="3.jpg"
+			}
+			else if (n==3)
+			{
+				x.src="4.jpg"
+			}
+			else if (n==4)
+			{
+				x.src="5.jpg"
+			}
+			else
+			{
+				x.src="1.jpg"
+				n=0
+			}
+			var t=setTimeout("print()",1000)
+		}
+	</script>
+</head>
+<body>
+	<img src="1.jpg" height="300" width="600" id="pic">
+
+<input type="button" value="print data" onclick="print()">
+
+</body>
+</html>

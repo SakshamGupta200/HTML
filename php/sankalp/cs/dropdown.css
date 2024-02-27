@@ -1,0 +1,21 @@
+
+#nav ul li:a
+{
+	display: block;
+	padding: 5px;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	color: azure;
+}
+#nav ul li {float: left;}
+#nav li:hover
+{
+	background-color: lightgreen;
+	border-radius: 20px 5px;
+
+}
+#nav ul li:hover
+{
+	background-color: maroon;
+}

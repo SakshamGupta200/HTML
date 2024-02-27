@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>pin validation</title>
+	<script type="text/javascript">
+		function validPin(thisform)
+		{
+			var pin=thisform.num.value
+			if (pin==null || pin==" ") 
+			{
+				alert("Enter the pincode")
+				thisform.num.focus()
+				return false
+			}
+			if (isNaN(pin)) 
+			{
+				alert("Invalid pincode")
+				thisform.num.focus
+				return false
+			}
+			if (pin.length!=6) 
+			{
+				alert("Invalid pincode")
+				thisform.num.focus
+				return false
+			}
+			i=pin.substring(0,1)
+			if (i==0) 
+			{
+				alert("Invalid pincode")
+				thisform.num.focus
+				return false	
+			}
+			else
+			{
+				return true
+			}
+			return true
+		}
+	</script>
+</head>
+<body>
+<form action="tic tac toe.html" method="post" onsubmit="return validPin(this)">
+	<p> Enter Pincode: <input type="text" name="num"></p>
+	<input type="submit" value="submit">
+</form>
+</body>
+</html>

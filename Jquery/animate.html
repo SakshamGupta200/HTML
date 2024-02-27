@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animate</title>
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$("#b").click(function()
+			{
+				$("#im").animate(
+				{
+					height:'+=100px',
+					width:'+=100px'
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+<button id="b">Animation</button><br>
+
+<img src="8.jpg" id="im" height="300" width="300">
+</body>
+</html>
